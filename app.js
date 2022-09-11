@@ -52,7 +52,7 @@ app.use('/', indexRouter);
 
 
 // database connection
-mongoose.connect("mongodb+srv://vicky26886:root123@gym-workout.ryulvif.mongodb.net/test", () => {
+mongoose.connect("mongodb+srv://vicky26886:root123@gym-workout.ryulvif.mongodb.net/gymDB", () => {
   console.log("db connected");
 
   // req.end(function (res) {
